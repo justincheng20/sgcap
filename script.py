@@ -37,5 +37,5 @@ for key in weighted_values.keys():
     sum = 0
     for num in weighted_values[key]:
         sum += num
-    print(key+",", sum/len(chosen_index_values))
+    print(key+",", round(sum/len(chosen_index_values),3))
 
